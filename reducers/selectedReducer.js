@@ -12,7 +12,6 @@ export const selectedReducer = (state = initState, action)=>{
     switch (action.type){
         case "SELECTED_ITEM":
             state = state.set('itemSelected', action.payload);
-            console.log(state.get('itemSelected'));
         break;
     }
     return state;

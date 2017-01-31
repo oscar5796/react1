@@ -4,8 +4,10 @@ module.exports = {
   // JavaScrip bundle file
   output: {
     path: './',
-    filename: 'index.js'
+    filename: 'index.js',
+    sourceMapFilename: 'index.map'
   },
+  devtool: '#source-map',
   // Setup server
   devServer: {
     inline: true,
