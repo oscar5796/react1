@@ -22,7 +22,12 @@ class MenuItem extends React.Component {
 const mapDispatchToProps = (dispatch)=>{
     return {
         add: (value) => {
+            /*or in this way with a function imported from other site
+            * dispatch(addFunction(value));
+            * */
+
             dispatch({
+
                 type: ADD,
                 payload: value
             });

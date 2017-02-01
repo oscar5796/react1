@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866deefd-88d6-42fa-9a63-0d0ef75ba1d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/menu-item-content/menu-item-content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/menu-item/menu-item.js" afterPath="$PROJECT_DIR$/components/menu-item/menu-item.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/menu/menu-styles.scss" afterPath="$PROJECT_DIR$/components/menu/menu-styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/menu/menu.js" afterPath="$PROJECT_DIR$/components/menu/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reducers/selectedReducer.js" afterPath="$PROJECT_DIR$/reducers/selectedReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="react1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +53,21 @@
       <file leaf-file-name="menu-item.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/menu-item/menu-item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="639">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,18 +97,8 @@
       <file leaf-file-name="menu-styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/menu/menu-styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action_const.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/action_const.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+            <state relative-caret-position="725">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -170,12 +166,13 @@
         <option value="$PROJECT_DIR$/reducers/reducer.js" />
         <option value="$PROJECT_DIR$/actions/action_const.js" />
         <option value="$PROJECT_DIR$/store/store.js" />
-        <option value="$PROJECT_DIR$/components/menu/menu-styles.scss" />
         <option value="$PROJECT_DIR$/components/menu/menu.js" />
         <option value="$PROJECT_DIR$/reducers/selectedReducer.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/components/menu-item/menu-item.js" />
         <option value="$PROJECT_DIR$/components/menu-item-content/menu-item-content.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/components/menu/menu-styles.scss" />
+        <option value="$PROJECT_DIR$/components/menu-item/menu-item.js" />
       </list>
     </option>
   </component>
@@ -186,7 +183,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4320" />
+    <option name="x" value="4321" />
+    <option name="y" value="1" />
     <option name="width" value="1440" />
     <option name="height" value="1536" />
   </component>
@@ -783,15 +781,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485784138285</updated>
-      <workItem from="1485784139538" duration="43463000" />
+      <workItem from="1485784139538" duration="45819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43463000" />
+    <option name="totallyTimeSpent" value="45819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4320" y="0" width="1440" height="1536" extended-state="0" />
+    <frame x="4321" y="1" width="1440" height="1536" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -875,7 +873,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,7 +883,7 @@
         <state relative-caret-position="174">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -915,14 +913,6 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/menu/menu-styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,10 +965,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/menu/menu-styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/menu-item/menu-item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="639">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

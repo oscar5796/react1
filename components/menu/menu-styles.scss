@@ -23,8 +23,8 @@
       background-color: #555;
       color: white;
     }
-    &:hover{
-      background-color: #555;
+    &[class="menu__itemContent"]:hover{
+      background-color: darkgray;
       color: white;
     }
   }
