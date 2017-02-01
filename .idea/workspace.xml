@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866deefd-88d6-42fa-9a63-0d0ef75ba1d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/reducerActions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/requestActions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/selectedReducerActions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reducers/requestReducer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/action_const.js" afterPath="$PROJECT_DIR$/actions/action_const.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/menu-item/menu-item.js" afterPath="$PROJECT_DIR$/components/menu-item/menu-item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/resultComponent/resultComponent.js" afterPath="$PROJECT_DIR$/components/resultComponent/resultComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/store.js" afterPath="$PROJECT_DIR$/store/store.js" />
     </list>
     <ignored path="react1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -807,16 +797,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485784138285</updated>
-      <workItem from="1485784139538" duration="56975000" />
+      <workItem from="1485784139538" duration="57566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56975000" />
+    <option name="totallyTimeSpent" value="57566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4320" y="0" width="1440" height="1536" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
