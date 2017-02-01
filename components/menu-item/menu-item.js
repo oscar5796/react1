@@ -3,6 +3,7 @@ import {ADD, SELECTED_ITEM} from '../../actions/action_const.js';
 import {connect} from 'react-redux';
 import MenuItemContent from '../menu-item-content/menu-item-content.js';
 import Immutable from 'immutable';
+import {selectItem} from '../../actions/selectedReducerActions.js';
 
 
 class MenuItem extends React.Component {
@@ -33,10 +34,11 @@ const mapDispatchToProps = (dispatch)=>{
             });
         },
         clicked: (itemNumber) => {
-            dispatch({
+            dispatch(selectItem(itemNumber));
+            /*dispatch({
                 type: SELECTED_ITEM,
                 payload: itemNumber
-            });
+            });*/
         }
     }
 };
