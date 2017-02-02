@@ -5,15 +5,42 @@ import {CHAMP_SUCCESS, CHAMP_ERROR} from './action_const.js';
 import {getChamps} from '../api/api.js';
 import request from 'superagent';
 
-export function champsResult(){
-    const url = 'https://lan.api.pvp.net/api/lol/lan/v1.2/champion?api_key=ec421a72-6317-407d-bc1e-f54384350848';
-    return dispatch => {
+/*export function champsResult(dispatch){
 
-        request('GET',url).then(champRequestSuccess(response.body),champRequestError(response.toError()));
+    let result = getChamps()
+        .then(
+            function (response) {
+                dispatch(champRequestSuccess(response.body));
+            })
+        .catch(dispatch(champRequestError(response.error)))
 
-    }
+
+}*/
+
+export const champsResult = () =>(dispatch) => {
+//  debugger
+    let result = getChamps()
+        .then(function(response){
+                dispatch (champRequestSuccess(response.body.champions));
+            }, function(response){
+                dispatch(champRequestError(response.error));
+            }
+        )
+   //     .catch(response => dispatch(champRequestError(response.error)))
 }
-
+/*export function champsResult(){
+    (dispatch)=>{
+        let result = getChamps()
+            .then(
+                function(response){
+                    dispatch(champRequestSuccess(response.body));
+                })
+            .catch(
+                function(response){
+                    dispatch(champRequestError(response.error));
+                })
+    }
+}*/
 export function champRequestSuccess(response){
     return {
         type: CHAMP_SUCCESS,

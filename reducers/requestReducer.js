@@ -14,15 +14,17 @@ const initState = Immutable.Map({
 export const requestReducer = (state = initState, action)=>{
     switch(action.type){
         case CHAMP_SUCCESS:
-            initState.merge({
+            state = state.merge(Immutable.Map({
                 loading: false,
                 error: false,
                 response: action.payload
-            });
+            }));
+
+            console.log(state);
         break;
 
         case CHAMP_ERROR:
-            initState.merge({
+            state.merge({
                 loading:false,
                 error:true,
                 response: action.payload
