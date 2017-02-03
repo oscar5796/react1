@@ -3,46 +3,50 @@
  */
 
 import React from 'react';
-import createFragment from 'react-addons-create-fragment';
 import {connect} from 'react-redux';
 
 class ChampionsView extends React.Component{
     constructor(props){
         super(props);
     }
-
+    list(obj){
+        for(var key in obj){
+            console.log(key);
+            return <li>{obj[key].id}</li>
+        }
+    }
     render(){
-        /*const listChamps = createFragment({
-            champions: this.props.champs
-        });*/
-        /*const listChamps = this.props.champs.toJS().map((champ)=>{
-            <li>{champ.id}</li>
-        });*/
-        const listChamps = (()=>{
-            if(this.props.champs != null){
-                this.props.champs.map((champ)=>{
-                    return <li>{champ.id}</li>
-                })
-            }
-            else{
-                return <li>WITHOUT DATA</li>
-            }
-        })();
+
+        const list = [];
+        for(var champ in this.props.champs){
+            list.push(<div key={this.props.champs[champ].id}>
+                <img src ={"http://ddragon.leagueoflegends.com/cdn/7.2.1/img/champion/"+this.props.champs[champ].image.full}/>
+                <li>{this.props.champs[champ].name}</li>
+            </div>);
+        }
+        //console.log(list);
 
 
+        if(this.props.fetching === false){
+            return  <div>
+                ChampsString:<br/>
+                {list}
+            </div>
+        }
+        else{
+            return <div>
+                <img src="../../assets/default.gif"/>
+            </div>
+        }
 
-        return <div>
-            ChampsString:<br/>
-            {this.props.champs?this.props.champs.map((champ)=>{
-                return <li key={champ.id}>{champ.id}</li>
-            }):<li>WITHOUT DATA</li>}
-        </div>
     }
 }
 
 const mapStateToProps = (state)=>{
     return{
-        champs: state.requestReducer.get('response')
+        champs: state.requestReducer.get('response'),
+        loading: state.requestReducer.get('loading'),
+        fetching: state.requestReducer.get('fetching')
     }
 }
 
