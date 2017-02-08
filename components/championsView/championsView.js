@@ -29,7 +29,7 @@ class ChampionsView extends React.Component{
 
         if(this.props.fetching === false){
             return  <div>
-                ChampsString:<br/>
+                ChampsString:1<br/>
                 {list}
             </div>
         }

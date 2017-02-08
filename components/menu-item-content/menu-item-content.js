@@ -4,7 +4,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {ADD, SELECTED_ITEM} from '../../actions/action_const.js';
-
+import {Link} from 'react-router';
 
 class MenuItemContent extends React.Component {
 

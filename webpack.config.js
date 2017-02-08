@@ -3,7 +3,7 @@ module.exports = {
   entry: './main.js',
   // JavaScrip bundle file
   output: {
-    path: './',
+    path: '/',
     filename: 'index.js',
     sourceMapFilename: 'index.map'
   },
@@ -19,14 +19,14 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react']
         }
       },
       {
         test: /\.scss$/,
-        loaders: ["style", "css", "sass"]
+        loaders: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   }

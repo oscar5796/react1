@@ -15,7 +15,7 @@ class MenuItem extends React.Component {
                    this.props.clicked(this.props.itemId);
                }}
             >
-        <MenuItemContent selected = {this.props.itemId === this.props.selectedItem.get('itemSelected')} name={this.props.name} itemId={this.props.itemId}/>
+        <MenuItemContent path={this.props.path} selected = {this.props.itemId === this.props.selectedItem.get('itemSelected')} name={this.props.name} itemId={this.props.itemId}/>
     </li>
     }
 }
